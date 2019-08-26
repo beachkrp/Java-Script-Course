@@ -60,6 +60,14 @@ var miles = 4.2;
 //output 
 console.log(miles + " miles is the same as " + miles*conversion + " kilometers");
 
+//Challenge #4  Converst kilometers to miles 
+
+//Create variles
+
+var kilometers = 16;
+//output
+console.log(kilometers + " kilometers is the same as " + kilometers/conversion + " miles");
+
 
 
 
