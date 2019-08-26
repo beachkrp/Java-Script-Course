@@ -19,3 +19,13 @@ console.log( num2*num1 - num1/num2 + num2/num1);
 console.log("The numbers concatenated: "+num2+num1);
 //casting 
 console.log("The number added together: " + (num2 + num1));
+
+//Create a new variable to calculate a result
+var calculate =  num1 + num2/num2;
+
+//Output
+console.log("The result is "  + calculate);
+
+calculate = (num1+ num2)/num2;
+
+console.log("The result is "  + calculate);
