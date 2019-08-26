@@ -25,7 +25,22 @@ var calculate =  num1 + num2/num2;
 
 //Output
 console.log("The result is "  + calculate);
+//Change order of operation
 
 calculate = (num1+ num2)/num2;
 
 console.log("The result is "  + calculate);
+
+
+//Challenge  #1
+//  Convert Fahrenheit to Celsuius
+
+
+var temp = 95;
+
+//Convert Fahrenheit to Celsius
+console.log("The Temperature " + temp + " in Fahrenheit is " + ((temp-32)*5/9) + "  in Celsuis");
+
+//Challenge #2  
+// Convert Celsuis to Fahrenheit
+
