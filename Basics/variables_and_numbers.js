@@ -38,9 +38,15 @@ console.log("The result is "  + calculate);
 
 var temp = 95;
 
-//Convert Fahrenheit to Celsius
+//Convert Fahrenheit to Celsius   C = (F-32)*5/9
 console.log("The Temperature " + temp + " in Fahrenheit is " + ((temp-32)*5/9) + "  in Celsuis");
 
 //Challenge #2  
 // Convert Celsuis to Fahrenheit
+
+
+temp = 20;
+// Conversion  F = C*9/5 + 32
+console.log("The Temperature " + temp + " in Celsuis is " + ((temp*9/5) +32) + "  in Celsuis");
+
 
