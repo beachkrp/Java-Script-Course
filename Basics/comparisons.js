@@ -2,7 +2,7 @@
 
 var num1 = 15;
 
-var num2 = 15;
+var num2 = '15';
 
 //Variable to test for equality
 
