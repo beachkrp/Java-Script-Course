@@ -8,7 +8,7 @@ var num2 = '15';
 
 var isEqual;
 
-isEqual = num1 == num2;
+isEqual = num1 === num2;
 
 //output
 console.log(isEqual);
