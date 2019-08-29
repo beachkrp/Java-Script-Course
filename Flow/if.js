@@ -53,3 +53,20 @@ else {
 	console.log("None of the conditions are true");
 }
 
+//Demonstrating the AND operater
+if ((num >45)  && (num2 < 25)) {
+	//Output
+	console.log("Both of the conditions is true");
+}
+else {
+	console.log("Both of the conditions are not true");
+}
+
+
+if ((num >45)  && (num2 <= 25)) {
+	//Output
+	console.log("Both of the conditions is true");
+}
+else {
+	console.log("Both of the conditions are not true");
+}
