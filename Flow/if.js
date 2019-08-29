@@ -5,6 +5,8 @@ var test = true;
 if (false) {
 	//output
 	console.log("The condition is true");
+} else{
+	console.log("The condition is false");
 }
 
 //output after teh if structure
