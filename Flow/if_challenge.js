@@ -1,6 +1,6 @@
 //Create a variable to hold the temperature
 
-var temp = 35;
+var temp = 78;
 
 //Test for hot temperature
 if (temp >90) {
@@ -16,7 +16,7 @@ else if (temp > 78){
 	//Output for not so hot temperature
 	console.log("The temperature is not so hot");	
 } // Test for cool temperature 
-else if (temp >55) {
+else if (temp <55) {
 	//Output for cool temperature
 	console.log("The temperature is cool");
 }
