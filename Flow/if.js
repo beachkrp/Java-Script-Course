@@ -2,10 +2,10 @@
 var test = true;
 
 //if structure
-if (true) {
+if (false) {
 	//output
-	console.log("The condition is ture");
+	console.log("The condition is true");
 }
 
 //output after teh if structure
-console.log("This is the code after the if strucruer");
+console.log("This is the code after the if structure");
