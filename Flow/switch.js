@@ -39,18 +39,22 @@ switch (true)
 		//Output
 		console.log("The student gets an A");
 	break;
+	//Testing second case
 	case grade >= 80:
 		//Output
 		console.log("The student gets an b");
 	break;
+	//Testing third case
 	case grade >= 70:
 		//Output
 		console.log("The student gets an C");
 	break;
+	//testing fouth case
 	case grade >= 60:
 		//Output
 		console.log("The student gets an D");
 	break;
+	//default 
 	default:
 		console.log("The student gets an F");
 	}
