@@ -29,3 +29,28 @@ var state = "The number is ";
  		console.log("'num'  has a value not covered by the switch statement");
 
  }
+
+//Create a variable to hold the grade
+var grade = 75;
+//switch structure
+switch (true)
+{	//Testing first case.
+	case grade >= 90:
+		//Output
+		console.log("The student gets an A");
+	break;
+	case grade >= 80:
+		//Output
+		console.log("The student gets an b");
+	break;
+	case grade >= 70:
+		//Output
+		console.log("The student gets an C");
+	break;
+	case grade >= 60:
+		//Output
+		console.log("The student gets an D");
+	break;
+	default:
+		console.log("The student gets an F");
+	}
