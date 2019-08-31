@@ -48,3 +48,9 @@ num3/=5;
 console.log(num3);
 num3%5;
 console.log(num3);
+
+// Set a variable
+var howLarge = (num1 >= 10) ? "The number is larger than 10" : "The Numer is smaller than 10";
+//Output
+console.log(howLarge);
+
