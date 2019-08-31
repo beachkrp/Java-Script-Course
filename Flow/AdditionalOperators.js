@@ -17,3 +17,21 @@ if(num1%2 == 1)
 	console.log(num1 +" is odd");
 else
 	console.log(num1 +" is even");
+
+
+//set a variable
+var num3 = 15;
+//increment operator
+num3++;
+//decrement operator
+console.log(num3);
+num3--;
+console.log(num3);
+
+//Demonstrating operation
+console.log(num3++);
+console.log(num3);
+
+//pre-incementer
+console.log(++num3);
+console.log(num3);
