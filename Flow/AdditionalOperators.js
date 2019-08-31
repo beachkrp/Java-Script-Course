@@ -35,3 +35,16 @@ console.log(num3);
 //pre-incementer
 console.log(++num3);
 console.log(num3);
+
+
+//Assignment operators
+num3 += 5;
+console.log(num3);
+num3-=5;
+console.log(num3);
+num3*=5;
+console.log(num3);
+num3/=5;
+console.log(num3);
+num3%5;
+console.log(num3);
