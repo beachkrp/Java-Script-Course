@@ -21,3 +21,13 @@ for (var i = 0; i < 5; i++) {
 	}
 	console.log("This is loop # " + i)
 }
+
+//Create a for loop to demonstrate "break"
+
+for (var i = 0; i < 5; i++) {
+	if (i==3) {
+		break;
+	}
+	console.log("This is loop # " + i)
+}
+
