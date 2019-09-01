@@ -12,3 +12,12 @@ for (var i = 1; i <= 5; i++) {
 	//Outer loop output
 	console.log("The outer loop has run " + i + " times");
 }
+
+//Create a for loop to demonstrate 'continue'
+
+for (var i = 0; i < 5; i++) {
+	if (i==3) {
+		continue;
+	}
+	console.log("This is loop # " + i)
+}
