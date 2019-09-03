@@ -23,3 +23,13 @@ sum();
 var total = sum;
 
 console.log(total());
+
+
+//Create a Welcome function
+
+var welcome = function (firstName) {
+	return "Welcome " + firstName + " to the world of Function with arguments";
+}
+
+console.log(welcome("John"));
+console.log(welcome("Jane"));
