@@ -27,9 +27,11 @@ console.log(total());
 
 //Create a Welcome function
 
-var welcome = function (firstName) {
-	return "Welcome " + firstName + " to the world of Function with arguments";
+var welcome = function (firstName, lastName) {
+	return "Welcome " + firstName + " "+ lastName +" to the world of functions with arguments";
 }
-
-console.log(welcome("John"));
-console.log(welcome("Jane"));
+//Call the function and show the output
+console.log(welcome("John", "Smith"));
+console.log(welcome("Jane", "Roe"));
+//undefined argument
+console.log(welcome("Mike"))
