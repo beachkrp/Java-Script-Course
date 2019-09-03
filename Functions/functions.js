@@ -1,5 +1,5 @@
 //Create a function called sum
-function sum() {
+var sum = function ()  {
 	//Create three variables
 	var num1 = 2;
 	var num2 = 3;
@@ -11,4 +11,6 @@ function sum() {
 
 //Call the function
 
+sum();
+sum();
 sum();
