@@ -1,6 +1,6 @@
 //Create a function to add two numbers
 
-var addNumbers = () =>	console.log("The sum of 5 and 9 is  "+ (5 + 8));
+var addNumbers = (num1) =>	console.log("The sum of " + num1+" and 9 is  "+ (num1 + 8));
 
+addNumbers(5);
 
-addNumbers();
