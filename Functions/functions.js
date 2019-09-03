@@ -5,7 +5,9 @@ var sum = function ()  {
 	var num2 = 3;
 	var sum = num1 + num2;
 	//Output
-	console.log("The total of " + num1 + " and " + num2 + " is " + sum);
+	// Return a value
+	return "The total of " + num1 + " and " + num2 + " is " + sum;
+	
 	
 }
 //Print the function
@@ -17,3 +19,7 @@ console.log(sum());
 sum();
 sum();
 sum();
+
+var total = sum;
+
+console.log(total());
