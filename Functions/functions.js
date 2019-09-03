@@ -26,12 +26,35 @@ console.log(total());
 
 
 //Create a Welcome function
-
-var welcome = function (firstName, lastName) {
+// adding default
+// TODO change to default 
+var welcome = function (firstName , lastName ) {
 	return "Welcome " + firstName + " "+ lastName +" to the world of functions with arguments";
 }
 //Call the function and show the output
 console.log(welcome("John", "Smith"));
 console.log(welcome("Jane", "Roe"));
 //undefined argument
+
+
+
 console.log(welcome("Mike"))
+
+// Challenge.
+//  Function to change miles to Kilometers
+
+var converter = function (miles) {
+
+	// Convert and return
+	return miles / .62137;
+
+}
+
+
+/// Test function
+
+console.log(converter(1));
+console.log(converter(2.4));
+console.log(converter(8));
+
+
