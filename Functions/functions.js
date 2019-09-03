@@ -8,6 +8,9 @@ var sum = function ()  {
 	console.log("The total of " + num1 + " and " + num2 + " is " + sum);
 	
 }
+//Print the function
+console.log(sum);
+console.log(sum());
 
 //Call the function
 
