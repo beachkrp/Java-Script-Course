@@ -1,9 +1,15 @@
 //Create a function
 function add(argument1, argument2) {
-	return  argument1 + argument2;
-	// body...
+	function innerAdd(first, second) {
+		return first + second;
+	}
+
+	//Return the sum of the argument
+
+	return  innerAdd(argument1,argument2);
+	
 }
 
 
 //Output
-console.log(4,6);
+console.log(add(4,6));
