@@ -29,3 +29,21 @@ console.log(numArray);
 
 console.log(numArray[4]);
 
+
+//Object oriented approach
+
+var newNumArray1 = new Array(3 , 7, 6);
+console.log(newNumArray1);
+
+//Create another array
+var nextNumArray = [];
+
+numArray[0] = 3;
+numArray[1] = 6;
+
+//TODO for node 15
+//var [num1, num2] = numArray;
+// console.log(num2);
+
+//[num2, num1] = [num1, num2];
+
