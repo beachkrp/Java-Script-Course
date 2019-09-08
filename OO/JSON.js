@@ -15,3 +15,6 @@ console.log(lamp.type);
 console.log(lamp.manufacturer.model);
 
 lamp.turnLampOnOrOff();
+
+console.log(typeof lamp.brightnessOfBulb);
+console.log(typeof lamp.manufacturer);
