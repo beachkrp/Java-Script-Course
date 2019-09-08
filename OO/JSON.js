@@ -19,6 +19,7 @@ var lamp = {
 
 };
 
+lamp.type = "overhead";
 console.log(lamp.type);
 console.log(lamp.manufacturer.model);
 
