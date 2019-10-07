@@ -1,7 +1,10 @@
-let selection = document.querySelector("#para1");
+let selection = document.querySelectorAll(".someClass");
 
+selection.forEach(function (arg ){
 
-selection.textContent =  "This was changed by JavaScript"
+arg.textContent =  "This is someClass"
 
+}
+)
 
 
