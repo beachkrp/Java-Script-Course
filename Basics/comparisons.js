@@ -1,12 +1,12 @@
 //Create two variables for comparison
 
-var num1 = 15;
+let num1 = 15;
 
-var num2 = 15;
+let num2 = 15;
 
 //Variable to test for equality
 
-var isEqual;
+let isEqual;
 
 isEqual = num1 !== num2;
 
@@ -14,7 +14,7 @@ isEqual = num1 !== num2;
 console.log(isEqual);
 
 // another variable for testing
-var isGreater = num1>num2;
+let isGreater = num1>num2;
 
 //output 
 console.log(isGreater);
@@ -29,7 +29,7 @@ console.log(isGreater);
 
 //Another comparison variable
 
-var isLessThan = num1 < num2;
+let isLessThan = num1 < num2;
 
 //output
 
