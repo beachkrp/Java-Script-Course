@@ -2,7 +2,6 @@ let mySelection = document.querySelectorAll('p');
 
 mySelection.forEach(  function(para) {
 
-	if (para.textContent.includes("***")) 
-		{para.remove();}
+	para.textContent = "This is from the script";
 	
 })
