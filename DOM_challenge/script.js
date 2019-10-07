@@ -1,14 +1,7 @@
-let selection = document.querySelectorAll("p");
+let selection = document.querySelector("#para1");
 
 
+selection.textContent =  "This was changed by JavaScript"
 
-selection.forEach(function (argu) {
-
-		if(argu.textContent.includes("second")){
-
-			argu.style.color = "green";
-
-		};
-	})
 
 
