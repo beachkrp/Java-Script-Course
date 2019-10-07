@@ -1,3 +1,7 @@
-let mySelection = document.querySelector('p');
+let mySelection = document.querySelectorAll('p');
 
-mySelection.remove();
+mySelection.forEach(  function(para) {
+
+	para.remove()
+	// body...
+})
