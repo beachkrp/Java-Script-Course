@@ -1,1 +1,1 @@
-document.body.children[0].textContent ="Hello ";
+document.body.children[0].style.color ="blue";
