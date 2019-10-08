@@ -1,9 +1,9 @@
 //Create two variables
 //Boolean variable for test
-var test = true;
+let test = true;
 
 //Variable to serve as a counter
-var count  = 0;
+let count  = 0;
 
 while(true){
 	if (count == 3) {

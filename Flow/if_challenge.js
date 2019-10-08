@@ -1,6 +1,6 @@
 //Create a variable to hold the temperature
 
-var temp = 78;
+let temp = 78;
 
 //Test for hot temperature
 if (temp >90) {

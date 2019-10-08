@@ -1,7 +1,7 @@
 //Variable to call number 
 
-var num = 50;
-var state = "The number is ";
+let num = 50;
+let state = "The number is ";
 
 //switch statement
  switch(true){
@@ -31,7 +31,7 @@ var state = "The number is ";
  }
 
 //Create a variable to hold the grade
-var grade = 75;
+let grade = 75;
 //switch structure
 switch (true)
 {	//Testing first case.

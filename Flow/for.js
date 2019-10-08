@@ -1,11 +1,11 @@
 //Create a for loop
-for (var i = 5; i >= 1; i--) { 
+for (let i = 5; i >= 1; i--) { 
 	//output
 	console.log("This is loop # " + i);
 }
 //nested for loops
-for (var i = 1; i <= 5; i++) {
-	for (var j  = 0;  j<= 3 ;j ++) {
+for (let i = 1; i <= 5; i++) {
+	for (let j  = 0;  j<= 3 ;j ++) {
 		//Inner loop output
 		console.log("The inner loop has run " + j + " times")
 	}
@@ -15,7 +15,7 @@ for (var i = 1; i <= 5; i++) {
 
 //Create a for loop to demonstrate 'continue'
 
-for (var i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
 	if (i==3) {
 		continue;
 	}
@@ -24,7 +24,7 @@ for (var i = 0; i < 5; i++) {
 
 //Create a for loop to demonstrate "break"
 
-for (var i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
 	if (i==3) {
 		break;
 	}
@@ -33,8 +33,8 @@ for (var i = 0; i < 5; i++) {
 
 //Create a for loop to test scope
 
-for (var i = 0; i < 5; i++) {
-	var test = 0;
+for (let i = 0; i < 5; i++) {
+	let test = 0;
 	test++;
 	console.log(test)
 }
@@ -47,9 +47,9 @@ for (var i = 0; i < 5; i++) {
 //Output the total sum at the end
 //create a variable to hold the sums
 
-var sum = 0;
+let sum = 0;
 
-for (var i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
 	//Output of the multiple by 5 of the counter and add 
 	sum += i*5;
 	console.log("In the loop " + i + " the value of five times the counter is " + sum);
@@ -60,7 +60,7 @@ console.log("\nThe final sum is " + sum+"\n\n");
 //Repeat Skip the loops 4 and 7
 sum = 0;
 
-for (var i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
 	//Output of the multiple by 5 of the counter and add 
 	//skip iterations 4 and 7
 	if ((i==4) || (i==7))

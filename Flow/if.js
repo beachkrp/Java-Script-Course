@@ -1,5 +1,6 @@
 //Declare a boolean variable  node.js 5.12
-var test = true;
+//Refactored to node js 10
+let test = true;
 
 //if structure
 if (test) {
@@ -13,7 +14,7 @@ if (test) {
 console.log("This is the code after the if structure");
 
 //Declare a numerical variable 
-var num= 50;
+let num= 50;
 
 if (num > 75) {
 	//Output 
@@ -42,12 +43,12 @@ else {
 
 //Assign  a mew variable
 
-var num2 = 25;
+let num2 = 25;
 
 //if statement
 if ((num >45)  || (num2 < 25)) {
 	//Output
-	console.log("One of the conditions is true");
+	console.log("One of the conditions are true");
 }
 else {
 	console.log("None of the conditions are true");
@@ -56,7 +57,7 @@ else {
 //Demonstrating the AND operater
 if ((num >45)  && (num2 < 25)) {
 	//Output
-	console.log("Both of the conditions is true");
+	console.log("Both of the conditions are true");
 }
 else {
 	console.log("Both of the conditions are not true");
@@ -65,7 +66,7 @@ else {
 
 if ((num >45)  && (num2 <= 25)) {
 	//Output
-	console.log("Both of the conditions is true");
+	console.log("Both of the conditions are true");
 }
 else {
 	console.log("Both of the conditions are not true");

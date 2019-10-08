@@ -1,7 +1,7 @@
 //Set two new variables
 
-var num1 = 17;
-var num2 = 3;
+let num1 = 17;
+let num2 = 3;
 
 //Output remainder
 console.log(num1%num2);
@@ -20,7 +20,7 @@ else
 
 
 //set a variable
-var num3 = 15;
+let num3 = 15;
 //increment operator
 num3++;
 //decrement operator
@@ -50,7 +50,7 @@ num3%5;
 console.log(num3);
 
 // Set a variable
-var howLarge = (num1 >= 10) ? "The number is larger than 10" : "The Numer is smaller than 10";
+let howLarge = (num1 >= 10) ? "The number is larger than 10" : "The Numer is smaller than 10";
 //Output
 console.log(howLarge);
 
