@@ -1,4 +1,4 @@
-document.querySelector("#someInput").addEventListener("change", function (effect) { 
+document.querySelector("#someInput").addEventListener("input", function (effect) { 
 
 				console.log(effect.target.value);
 				})
