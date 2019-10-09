@@ -29,3 +29,38 @@ let add4 = newAdd(4);
 console.log(add4(6));
 console.log(add4(13));
 
+//New Function Calculation
+
+function calculation(input1) {
+	let result = input1;
+	return {
+		
+		add: function(input2){
+					result += input2;
+				},
+		
+		subtraction: function(input2){
+					result -=  input2;
+				},
+
+		multiplication: function(input2){
+			result *= input2;
+		},
+
+		division: function(input2){
+			result /= input2;
+		},
+		getResult: function(){
+			return result
+		}
+	}		
+}
+
+
+
+let someCalc = calculation(0);
+
+someCalc.add(43);
+console.log(someCalc.getResult());
+someCalc.multiplication(4);
+console.log(someCalc.getResult());
