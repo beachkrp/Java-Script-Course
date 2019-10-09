@@ -1,9 +1,9 @@
 //Create a function called sum
-var sum = function ()  {
+let sum = function ()  {
 	//Create three variables
-	var num1 = 2;
-	var num2 = 3;
-	var sum = num1 + num2;
+	let num1 = 2;
+	let num2 = 3;
+	let sum = num1 + num2;
 	//Output
 	// Return a value
 	return "The total of " + num1 + " and " + num2 + " is " + sum;
@@ -20,7 +20,7 @@ sum();
 sum();
 sum();
 
-var total = sum;
+let total = sum;
 
 console.log(total());
 
@@ -28,7 +28,7 @@ console.log(total());
 //Create a Welcome function
 // adding default
 // TODO change to default 
-var welcome = function (firstName , lastName ) {
+let welcome = function (firstName , lastName ) {
 	return "Welcome " + firstName + " "+ lastName +" to the world of functions with arguments";
 }
 //Call the function and show the output
@@ -43,7 +43,7 @@ console.log(welcome("Mike"))
 // Challenge.
 //  Function to change miles to Kilometers
 
-var converter = function (miles) {
+let converter = function (miles) {
 
 	// Convert and return
 	return miles / .62137;

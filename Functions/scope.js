@@ -1,12 +1,12 @@
 //Create a variable 
-var firstName = "Jane";
+let firstName = "Jane";
 
 
 //Create a declared function
 
 function welcome() {
 	// Create variable
-	var lastName = "Smith"
+	let lastName = "Smith"
 	//output
 	console.log("Welcome " + firstName + " to variable scope");
 }
@@ -25,19 +25,19 @@ welcome()
 
 //hello();
  
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
 	
 }
 
 function greeting() {
-  var givenName = "Jane";
+  let givenName = "Jane";
   if(true){
-  	var surname = "Smith";
+  	let surname = "Smith";
   	console.log("Hello "+ givenName +" "+ surname);
   }
 }
 
 //declare a variable of the same name as in the function
-var givenName = "John";
+let givenName = "John";
 // call the function
 greeting();
