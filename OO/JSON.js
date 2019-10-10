@@ -1,5 +1,9 @@
-//Create an object
-var lamp = {
+     
+
+
+
+     //Create an object
+let lamp = {
 	"type": "desk",
 	"brightnessOfBulb": 60,
 	"turnedOn": true,
@@ -23,7 +27,7 @@ var lamp = {
 	},
 
 	lampStatus : function(){
-		var status = (this.turnedOn ? "on" :"off"); 
+		let status = (this.turnedOn ? "on" :"off"); 
 
 		console.log("The lamp is " + status);
 
