@@ -1,4 +1,4 @@
-"use strict"
+
 class Movie{
 	constructor(title) {
 		this.title = title;
@@ -67,7 +67,7 @@ class Jurassic extends Movie{
 }
 
 function selectMovie(){
-	var randomNumber = Math.floor(4*Math.random()) +1;
+	let randomNumber = Math.floor(4*Math.random()) +1;
 	
 	switch (randomNumber){
 		case 1:
@@ -85,8 +85,8 @@ function selectMovie(){
 	}
 }
 
-for (var i = 0; i < 10; i++) {
-	var movie = selectMovie();
+for (let i = 0; i < 10; i++) {
+	let movie = selectMovie();
 	console.log("Movie" + movie.name +"is  about" + movie.plot());
 }
 
