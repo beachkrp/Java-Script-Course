@@ -1,4 +1,4 @@
-"use strict";
+
 // Create a class 
 class Auto{
 	//create a constructor that defines properties for model and cyliners
