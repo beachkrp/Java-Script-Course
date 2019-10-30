@@ -83,7 +83,7 @@ function selectMovie(){
 			return new AwfulMovies();
 		break;
 	}
-}git
+}
 
 for (let i = 0; i < 10; i++) {
 	let movie = selectMovie();
